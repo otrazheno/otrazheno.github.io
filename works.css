@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0 auto;
+    text-decoration: none;
+    list-style-type: none;
+    font-family: fontSite;
+
+}
+.container{
+    width: 100%;
+}
+.header {
+    position: sticky;
+    top: 0%;
+    width: 100%;
+    display: flex;
+}
+.headerleft{
+    margin-left:0px;
+    margin-top:0px;
+}
+.headerleft img{
+    height: 100px;
+}
+.headerright{
+    margin-top:30px;
+    margin-right: 90px;
+    height: 20px;
+    text-align: right;
+    font-size: 15px;
+}
+.headerright a{
+    letter-spacing: 0.5px;
+    color: rgb(0, 0, 0);
+}
+.main{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+.main img{
+    height:400px;
+    margin-top: 100px;
+    margin-left: -400px;
+    
+}
+
+.pp {
+    margin-top: 3pc;
+    margin-bottom: 5em;
+    width: 30%;
+    font-size:20px;
+    color: black;
+    margin-left: 20px;
+    text-align: left;
+    line-height: 1.5;
+}
+.pp p{
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+.pp a{
+    color: rgb(0, 0, 0);
+}
+
+@font-face {
+    font-family: fontSite;
+    src: url(font/InstrumentSerif-Regular.ttf);
+}
+
